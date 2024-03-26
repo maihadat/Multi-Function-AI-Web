@@ -12,8 +12,8 @@ model="gpt-3.5-turbo-0125"
 
 
 class AssistantManager():
-    thread_id = 'thread_43N5njp7XAxYui3384Sf3Dgd'
-    assistant_id = 'asst_KTecZRIHip2tsJNeGfKYLhYq'
+    thread_id = None
+    assistant_id = None
     
     def __init__(self, model:str = model):
         self.client = client
